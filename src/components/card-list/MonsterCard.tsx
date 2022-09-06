@@ -21,6 +21,7 @@ export const MonsterList: React.FC<MonsterListProps> = ({ monsters }) => {
 }
 
 export const MonsterCard: React.FC<MonsterModel> = ({ id, email, name }: MonsterModel) => {
+    
     return (
         <div className="card-container" key={id}>
             <img
